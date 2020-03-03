@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,10 +6,25 @@ import SEO from "../components/seo"
 const About = () => (
   <Layout>
     <SEO title="Page about" />
-    <h1>About</h1>
-    <p>Paragraph of me</p>
-    <p>Skills</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+      }}
+    >
+      <div>
+        <h2>Me</h2>
+        <p>Paragraph of me</p>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <p>Skills</p>
+      </div>
+    </div>
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <h2>Contact</h2>
+    </div>
   </Layout>
 )
 
