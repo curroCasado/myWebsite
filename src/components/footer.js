@@ -11,7 +11,7 @@ const Footer = () => {
           }}
         >
           <a
-            href=""
+            href="https://www.linkedin.com/in/curro-casado-9626a8193/"
             style={{
               color: `#803535`,
               paddingLeft: 10,
@@ -21,7 +21,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href=""
+            href="https://github.com/curroCasado"
             style={{
               color: `#803535`,
               paddingLeft: 10,
@@ -31,7 +31,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/profile.php?id=100008450767519"
             style={{
               color: `#803535`,
               paddingLeft: 10,
