@@ -8,8 +8,8 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
     <h1>Project</h1>
-    <p>Welcome to page 2</p>
-    <p>This the About page</p>
+    <p>Project</p>
+    <p>GitHub API</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

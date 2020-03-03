@@ -21,7 +21,7 @@ const DashBoard = () => {
         Home
       </Link>
       <Link
-        to="/page-2/"
+        to="/projects/"
         style={{
           color: "white",
           alignSelf: "flex-end",
