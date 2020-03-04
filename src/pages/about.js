@@ -64,7 +64,7 @@ const About = () => (
       }}
     >
       <h2>Contact</h2>
-      <dl className="row" style={{ paddingLeft: 100 }}>
+      <dl className="row" style={{ paddingLeft: 150 }}>
         <dt className="col-sm-3">Email</dt>
         <dd className="col-sm-9">currocuo9625@gmail.com</dd>
 
