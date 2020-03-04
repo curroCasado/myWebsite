@@ -8,6 +8,7 @@ const DashBoard = () => {
         flexGrow: "2",
         display: "flex",
         justifyContent: "space-around",
+        maxWidth: 500,
       }}
     >
       <Link
