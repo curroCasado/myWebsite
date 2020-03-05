@@ -34,8 +34,14 @@ const IndexPage = () => {
           ready for new ideas.{" "}
         </p>
         <h3>Porfolio</h3>
-        <div>
-          <p>GitHub API</p>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
           {data.githubViewer.repositories.edges.map(project => (
             <Project name={project.node.name} />
           ))}
