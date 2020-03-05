@@ -27,6 +27,28 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-source-github",
+      options: {
+        headers: {
+          Authorization: `Bearer ae5a072675b469b170168cd817528f8372a48a62`, // https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+        },
+        queries: [
+          `{
+            viewer {
+              login
+              repositories(first: 10) {
+                edges {
+                  node {
+                    name
+                  }
+                }
+              }
+            }
+          }`,
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
